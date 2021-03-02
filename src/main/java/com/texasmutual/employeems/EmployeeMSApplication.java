@@ -26,6 +26,7 @@ public class EmployeeMSApplication{
                 user.setEmail(name + "@texasmutual.com");
                 userRepository.save(user);
             });
+            System.out.println("Following records are added to the H2 in memory database");
             userRepository.findAll().forEach(System.out::println);
         };
 	 }
