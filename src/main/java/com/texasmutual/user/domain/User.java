@@ -1,4 +1,4 @@
-package com.texasmutual.employeems.domain;
+package com.texasmutual.user.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

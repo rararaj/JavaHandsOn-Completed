@@ -1,4 +1,4 @@
-package com.texasmutual.employeems;
+package com.texasmutual.user;
 
 import java.util.stream.Stream;
 
@@ -7,14 +7,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.texasmutual.employeems.domain.User;
-import com.texasmutual.employeems.repository.UserRepository;
+import com.texasmutual.user.domain.User;
+import com.texasmutual.user.repository.UserRepository;
 
 @SpringBootApplication
-public class EmployeeMSApplication{
+public class UserMSApplication{
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeMSApplication.class, args);
+		SpringApplication.run(UserMSApplication.class, args);
 	}
 	
 	 @Bean
