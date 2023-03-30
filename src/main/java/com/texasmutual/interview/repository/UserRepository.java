@@ -1,9 +1,9 @@
-package com.texasmutual.user.repository;
+package com.texasmutual.interview.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.texasmutual.user.domain.User;
+import com.texasmutual.interview.domain.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Long>{}
